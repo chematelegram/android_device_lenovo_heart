@@ -51,6 +51,10 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
+# Prebuilts
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Recorder
 PRODUCT_PACKAGES += \
     Recorder
