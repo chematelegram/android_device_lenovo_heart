@@ -51,6 +51,10 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
+# Recorder
+PRODUCT_PACKAGES += \
+    Recorder
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0.vendor
