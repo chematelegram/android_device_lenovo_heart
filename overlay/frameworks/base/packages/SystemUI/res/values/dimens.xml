@@ -23,6 +23,6 @@
     <dimen name="status_bar_padding_top">1dp</dimen>
     
     <!-- Bottom margin size when fingerprint in display is active -->
-    <dimen name="keyguard_indication_margin_bottom_fingerprint_in_display">831px</dimen>
+    <dimen name="keyguard_indication_margin_bottom_fingerprint_in_display">45px</dimen>
 
 </resources>
