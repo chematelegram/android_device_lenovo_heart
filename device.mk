@@ -38,6 +38,18 @@ PRODUCT_PACKAGES += \
     init.device.rc \
     init.system.qcom.rc
 
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_FACE_UNLOCK := true
+PRODUCT_PACKAGES += \
+    FaceUnlockService
+
+# FM
+PRODUCT_PACKAGES += \
+    FM2 \
+    libqcomfm_jni \
+    qcom.fmradio
+
 # Misc
 PRODUCT_PACKAGES += \
     libchrome \
