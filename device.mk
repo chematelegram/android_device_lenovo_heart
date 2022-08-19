@@ -75,3 +75,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Touch
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.lenovo_heart
+
+# VNDK
+PRODUCT_COPY_FILES += \
+    prebuilts/vndk/v32/arm64/arch-arm64-armv8-a/shared/vndk-sp/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidlbase-v32.so
