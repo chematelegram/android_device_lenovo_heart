@@ -24,9 +24,6 @@ ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_CLANG_VERSION := proton
 endif
 
-# NFC
-TARGET_USES_NQ_NFC := true
-
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/touch/tp_dev/double_tap_enable"
 
