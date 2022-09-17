@@ -18,6 +18,9 @@
 -->
 
 <resources>
+    <!-- Whether or not we should show vendor mismatch message -->
+    <bool name="config_show_vendor_mismatch_message">false</bool>
+
     <!-- Pocket Lock -->
     <bool name="config_pocketUseLightSensor">false</bool>
     <bool name="config_pocketModeSupported">false</bool>
@@ -88,7 +91,7 @@
 
     <!-- Default value for proximity check on screen wake
      NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
-    <bool name="config_proximityCheckOnWake">true</bool>
+    <bool name="config_proximityCheckOnWake">false</bool>
     <integer name="config_proximityCheckTimeout">0</integer>
     <bool name="config_proximityCheckOnWakeEnabledByDefault">false</bool>
 </resources>

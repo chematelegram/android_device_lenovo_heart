@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_heart.mk
+    $(LOCAL_DIR)/spark_heart.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_heart-user \
-    evolution_heart-userdebug \
-    evolution_heart-eng
+    spark_heart-user \
+    spark_heart-userdebug \
+    spark_heart-eng
