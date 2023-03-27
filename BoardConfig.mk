@@ -17,11 +17,10 @@ TARGET_OTA_ASSERT_DEVICE := heart
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-  TARGET_KERNEL_CONFIG := lineage_heart_defconfig
-  TARGET_KERNEL_CLANG_COMPILE := true
-  TARGET_KERNEL_SOURCE := kernel/lenovo/sm8150
-endif
+TARGET_KERNEL_CONFIG := lineage_heart_defconfig
+TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_SOURCE := kernel/lenovo/sm8150
+TARGET_KERNEL_CLANG_VERSION := trb
 
 # NFC
 TARGET_USES_NQ_NFC := true
